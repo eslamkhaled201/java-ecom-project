@@ -1,0 +1,101 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:ecommerce-app >----------------------
+[INFO] Building ecommerce-app 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.287 s
+[INFO] Finished at: 2026-03-01T22:04:28+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "sprin-boot-run". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: pre-clean, clean, post-clean, validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:ecommerce-app >----------------------
+[INFO] Building ecommerce-app 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.20.0-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ecommerce-app ---
+[INFO] Deleting /home/eslam_khaled/java-ecom-project/ecommerce-app/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ecommerce-app ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ecommerce-app ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 20 source files with javac [debug target 11] to target/classes
+[INFO] /home/eslam_khaled/java-ecom-project/ecommerce-app/src/main/java/com/example/ecommerce/security/SecurityConfig.java: /home/eslam_khaled/java-ecom-project/ecommerce-app/src/main/java/com/example/ecommerce/security/SecurityConfig.java uses or overrides a deprecated API.
+[INFO] /home/eslam_khaled/java-ecom-project/ecommerce-app/src/main/java/com/example/ecommerce/security/SecurityConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] >>> spring-boot:2.7.5:run (default-cli) > test-compile @ ecommerce-app >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ecommerce-app ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ecommerce-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ecommerce-app ---
+[INFO] skip non existing resourceDirectory /home/eslam_khaled/java-ecom-project/ecommerce-app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ecommerce-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:2.7.5:run (default-cli) < test-compile @ ecommerce-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:2.7.5:run (default-cli) @ ecommerce-app ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.5)
+
+2026-03-01 22:09:20.676  INFO 114273 --- [           main] c.e.ecommerce.EcommerceApplication       : Starting EcommerceApplication using Java 11.0.22 on webserver with PID 114273 (/home/eslam_khaled/java-ecom-project/ecommerce-app/target/classes started by eslam_khaled in /home/eslam_khaled/java-ecom-project/ecommerce-app)
+2026-03-01 22:09:20.678  INFO 114273 --- [           main] c.e.ecommerce.EcommerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:09:21.305  INFO 114273 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:09:21.356  INFO 114273 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2026-03-01 22:09:21.802  INFO 114273 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-03-01 22:09:21.811  INFO 114273 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-01 22:09:21.811  INFO 114273 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2026-03-01 22:09:21.885  INFO 114273 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-01 22:09:21.885  INFO 114273 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2026-03-01 22:09:22.021  INFO 114273 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-01 22:09:22.077  INFO 114273 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2026-03-01 22:09:22.175  INFO 114273 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-03-01 22:09:22.251  INFO 114273 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-01 22:09:22.404  INFO 114273 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-01 22:09:22.420  INFO 114273 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2026-03-01 22:09:22.949  INFO 114273 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-03-01 22:09:22.957  INFO 114273 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:09:23.381  INFO 114273 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18f8e2e0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28d56028, org.springframework.security.web.context.SecurityContextPersistenceFilter@21ffc00e, org.springframework.security.web.header.HeaderWriterFilter@7305cfb1, org.springframework.security.web.csrf.CsrfFilter@4ec37a42, org.springframework.security.web.authentication.logout.LogoutFilter@2ee095c9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4db16677, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45b08b17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20171cdc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c56fff, org.springframework.security.web.session.SessionManagementFilter@71687d8f, org.springframework.security.web.access.ExceptionTranslationFilter@7c56c911, org.springframework.security.web.access.intercept.AuthorizationFilter@36453773]
+2026-03-01 22:09:23.422  WARN 114273 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:09:23.546  INFO 114273 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-03-01 22:09:23.724  INFO 114273 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-03-01 22:09:23.732  INFO 114273 --- [           main] c.e.ecommerce.EcommerceApplication       : Started EcommerceApplication in 3.366 seconds (JVM running for 3.671)
+2026-03-01 22:09:57.660  INFO 114273 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 22:09:57.661  INFO 114273 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-01 22:09:57.661  INFO 114273 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Hibernate: select product0_.id as id1_2_, product0_.description as descript2_2_, product0_.name as name3_2_, product0_.order_id as order_id6_2_, product0_.price as price4_2_, product0_.stock_quantity as stock_qu5_2_ from products product0_
+Hibernate: select product0_.id as id1_2_, product0_.description as descript2_2_, product0_.name as name3_2_, product0_.order_id as order_id6_2_, product0_.price as price4_2_, product0_.stock_quantity as stock_qu5_2_ from products product0_
+Hibernate: select product0_.id as id1_2_, product0_.description as descript2_2_, product0_.name as name3_2_, product0_.order_id as order_id6_2_, product0_.price as price4_2_, product0_.stock_quantity as stock_qu5_2_ from products product0_
+Hibernate: select product0_.id as id1_2_, product0_.description as descript2_2_, product0_.name as name3_2_, product0_.order_id as order_id6_2_, product0_.price as price4_2_, product0_.stock_quantity as stock_qu5_2_ from products product0_
+2026-03-02 00:13:35.006  INFO 114273 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-02 00:13:35.105  INFO 114273 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-02 00:13:35.238  INFO 114273 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

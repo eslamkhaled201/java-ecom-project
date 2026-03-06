@@ -13,8 +13,8 @@ com/example/ecommerce/repository/OrderRepository.class
 com/example/ecommerce/service/CustomUserDetailsService.class
 com/example/ecommerce/security/CustomUserDetails.class
 com/example/ecommerce/model/User.class
-com/example/ecommerce/controller/ProductController.class
-com/example/ecommerce/controller/AuthController.class
 com/example/ecommerce/repository/UserRepository.class
+com/example/ecommerce/controller/AuthController.class
+com/example/ecommerce/controller/ProductController.class
 com/example/ecommerce/controller/CartController.class
 com/example/ecommerce/service/ProductService.class
